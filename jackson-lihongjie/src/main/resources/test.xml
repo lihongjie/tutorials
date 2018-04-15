@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<name>Li Hongjie</name>
+<age>26</age>
+<position>Developer</position>
+<salary>123456</salary>
+<skills>
+	<skill>java</skill>
+	<skill>c++</skill>
+</skills>
+<NumLeases>1</NumLeases>
+<FLAG>SUCCESS</FLAG>
+<MESSAGE>Test Upload</MESSAGE>
+<Lease>
+    <LeaseVersion>1</LeaseVersion>
+    <F1501B>
+       <NEDOCO>18738</NEDOCO>
+       <NWUNIT>0004</NWUNIT>
+       <NTRUSTRECORDKEY>12</NTRUSTRECORDKEY>
+    </F1501B>
+    <F1501B>
+       <NEDOCO>18739</NEDOCO>
+       <NWUNIT>0005</NWUNIT>
+       <NTRUSTRECORDKEY>8</NTRUSTRECORDKEY>
+    </F1501B>
+</Lease>
+</root>

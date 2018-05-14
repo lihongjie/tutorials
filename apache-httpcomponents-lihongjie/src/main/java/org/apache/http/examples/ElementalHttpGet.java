@@ -40,6 +40,8 @@ import java.net.Socket;
 
 /**
  * Elemental example for executing multiple GET requests sequentially.
+ *
+ * This example demonstrates how to execute a series of synchronous (blocking) HTTP GET requests.
  */
 public class ElementalHttpGet {
 

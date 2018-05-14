@@ -43,6 +43,9 @@ import java.net.Socket;
 
 /**
  * Elemental example for executing multiple POST requests sequentially.
+ *
+ * This example demonstrates how to execute a series of synchronous (blocking) HTTP POST requests
+ * that enclose entity content of various types: a string, a byte array, an arbitrary input stream.
  */
 public class ElementalHttpPost {
 

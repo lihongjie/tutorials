@@ -44,7 +44,7 @@
  * Created on May 26, 2005, 11:54 AM
  */
 
-package com.sun.enterprise.util.uuid;
+package com.github.lihongjie.util.uuid;
 
 /**
  *

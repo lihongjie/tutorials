@@ -44,9 +44,9 @@
  * Created on December 8, 2001, 5:48 PM
  */
 
-package com.sun.enterprise.util;
+package com.github.lihongjie.util;
 
-import java.io.*;
+import java.io.File;
 import java.util.Locale;
 
 /**

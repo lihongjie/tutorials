@@ -38,7 +38,7 @@
  * holder.
  */
 
-package com.sun.enterprise.util;
+package com.github.lihongjie.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

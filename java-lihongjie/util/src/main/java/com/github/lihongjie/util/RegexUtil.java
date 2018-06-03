@@ -38,7 +38,7 @@
  * holder.
  */
 
-package com.sun.enterprise.util;
+package com.github.lihongjie.util;
 
 /** Provides some regex utilities.
  * @author Kedar Mhaswade (km@dev.java.net)

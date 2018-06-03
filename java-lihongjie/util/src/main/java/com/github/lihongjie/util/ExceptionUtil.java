@@ -38,12 +38,9 @@
  * holder.
  */
 
-package com.sun.enterprise.util;
+package com.github.lihongjie.util;
 
 import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Set;
 
 /**
  * Useful utilities for Exceptions

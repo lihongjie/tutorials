@@ -38,7 +38,9 @@
  * holder.
  */
 
-package com.sun.enterprise.util;
+package com.github.lihongjie.util;
+
+import com.sun.enterprise.util.StringUtils;
 
 /**
  * A simple class that fills a hole in the JDK.  It parses out the version numbers

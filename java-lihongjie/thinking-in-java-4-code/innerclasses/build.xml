@@ -85,7 +85,7 @@
 
   <target name="ClassInInterface">
     <java
-     classname="ClassInInterface$Test"
+     classname="ClassInInterface$test.Test"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../innerclasses/"
      failonerror="true"

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2"
+      xmlns="http://www.dmg.org/PMML-4_2">
+
+    <Header copyright="Copyright (c) 2014 tom" description="Linear Regression Model">
+        <Extension name="user" value="tom" extender="Rattle/PMML"/>
+        <Application name="Rattle/PMML" version="1.3"/>
+        <Timestamp>2014-03-15 13:18:06</Timestamp>
+    </Header>
+
+    <DataDictionary numberOfFields="3">
+        <DataField name="rate" optype="continuous" dataType="double"/>
+        <DataField name="year" optype="continuous" dataType="double"/>
+        <DataField name="attribute1" optype="categorical" dataType="string"/>
+    </DataDictionary>
+
+    <MiningModel functionName="regression">
+
+        <MiningSchema>
+            <MiningField name="rate" usageType="predicted"/>
+            <MiningField name="year" usageType="active"/>
+            <MiningField name="attribute1" usageType="active"/>
+        </MiningSchema>
+
+        <Segmentation multipleModelMethod="selectFirst">
+
+            <Segment id="A">
+                <SimplePredicate field="attribute1" operator="equal" value="1315"/>
+
+                <RegressionModel modelName="interest-rate-simple-linear-regression-1" functionName="regression"
+                                 algorithmName="least squares"
+                                 targetFieldName="rate">
+
+                    <MiningSchema>
+                        <MiningField name="rate" usageType="predicted"/>
+                        <MiningField name="year" usageType="active"/>
+                        <MiningField name="attribute1" usageType="active"/>
+                    </MiningSchema>
+
+                    <Output>
+                        <OutputField name="Predicted_rate" feature="predictedValue"/>
+                    </Output>
+                    <RegressionTable intercept="10000">
+                        <NumericPredictor name="year" exponent="1" coefficient="1.5"/>
+                    </RegressionTable>
+                </RegressionModel>
+            </Segment>
+
+            <Segment id="B">
+                <SimplePredicate field="attribute1" operator="equal" value="1330"/>
+
+                <RegressionModel modelName="interest-rate-simple-linear-regression-2" functionName="regression"
+                                 algorithmName="least squares"
+                                 targetFieldName="rate">
+
+                    <MiningSchema>
+                        <MiningField name="rate" usageType="predicted"/>
+                        <MiningField name="year" usageType="active"/>
+                        <MiningField name="attribute1" usageType="active"/>
+                    </MiningSchema>
+
+                    <Output>
+                        <OutputField name="Predicted_rate" feature="predictedValue"/>
+                    </Output>
+                    <RegressionTable intercept="20000">
+                        <NumericPredictor name="year" exponent="1" coefficient="-0.5"/>
+                    </RegressionTable>
+                </RegressionModel>
+            </Segment>
+
+            <Segment id="C">
+
+                <!--default model -->
+
+                <True/>
+
+                <RegressionModel modelName="interest-rate-simple-linear-regression-2" functionName="regression"
+                                 algorithmName="least squares"
+                                 targetFieldName="rate">
+
+
+                    <MiningSchema>
+                        <MiningField name="rate" usageType="predicted"/>
+                        <MiningField name="year" usageType="active"/>
+                        <MiningField name="attribute1" usageType="active"/>
+                    </MiningSchema>
+
+                    <Output>
+                        <OutputField name="Predicted_rate" feature="predictedValue"/>
+                    </Output>
+                    <RegressionTable intercept="5000">
+                        <NumericPredictor name="year" exponent="1" coefficient="-0.75"/>
+                    </RegressionTable>
+                </RegressionModel>
+            </Segment>
+        </Segmentation>
+    </MiningModel>
+</PMML>

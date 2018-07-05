@@ -12,9 +12,13 @@ import org.apache.http.util.EntityUtils;
 public class ClientAbortMethod {
 
     public final static void main(String[] args) throws Exception {
-
+        System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http.impl.conn", "DEBUG");
+        System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http.impl.client", "DEBUG");
+        System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http.client", "DEBUG");
+        System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http", "DEBUG");
         CloseableHttpClient httpclient = HttpClients.createDefault();
-        String url = "http://api.qixin.com/APITestService/enterprise/getDetailAndContactByName?appkey=ada44bd0070711e6b8a865678b483fde&keyword=小米科技有限责任公司";
+//        String url = "http://api.qixin.com/APITestService/enterprise/getDetailAndContactByName?appkey=ada44bd0070711e6b8a865678b483fde&keyword=小米科技有限责任公司";
+        String url = "http://www.baidu.com";
         try {
 //            HttpGet httpget = new HttpGet("http://httpbin.org/get");
             HttpGet httpget = new HttpGet(url);

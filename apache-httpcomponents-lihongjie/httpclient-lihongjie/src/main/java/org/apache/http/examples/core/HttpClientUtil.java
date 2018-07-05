@@ -11,12 +11,14 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
  */
 public class HttpClientUtil {
 
+    private static final int timeout = 30 * 1000;
+
     private static final CloseableHttpClient httpClient = getClosableHttpClient();
 
     public static final RequestConfig defaultRequestConfig = RequestConfig.custom()
-            .setSocketTimeout(30000)
-            .setConnectTimeout(30000)
-            .setConnectionRequestTimeout(30000)
+            .setSocketTimeout(timeout)
+            .setConnectTimeout(timeout)
+            .setConnectionRequestTimeout(timeout)
             .setContentCompressionEnabled(true)
             .setCookieSpec(CookieSpecs.IGNORE_COOKIES)
             .build();

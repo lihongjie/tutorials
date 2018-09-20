@@ -1,4 +1,4 @@
-package com.example;
+package io.github.lihongjie.thread.demo1;
 
 public class WorkerThread implements Runnable {
 

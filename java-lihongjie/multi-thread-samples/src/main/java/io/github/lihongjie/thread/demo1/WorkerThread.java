@@ -1,5 +1,8 @@
 package io.github.lihongjie.thread.demo1;
 
+/**
+ * 线程池的例子
+ */
 public class WorkerThread implements Runnable {
 
     private String message;

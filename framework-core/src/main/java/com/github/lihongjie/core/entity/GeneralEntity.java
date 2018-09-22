@@ -1,46 +1,46 @@
 package com.github.lihongjie.core.entity;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
-public class GeneralEntity {
+public abstract class GeneralEntity {
 
-    private Date lastUpdatedStamp;
+    private LocalDateTime lastUpdatedStamp;
 
-    private Date lastUpdatedTxStamp;
+    private LocalDateTime lastUpdatedTxStamp;
 
-    private Date createdStamp;
+    private LocalDateTime createdStamp;
 
-    private Date createdTxStamp;
+    private LocalDateTime createdTxStamp;
 
-    public Date getLastUpdatedStamp() {
+    public LocalDateTime getLastUpdatedStamp() {
         return lastUpdatedStamp;
     }
 
-    public void setLastUpdatedStamp(Date lastUpdatedStamp) {
+    public void setLastUpdatedStamp(LocalDateTime lastUpdatedStamp) {
         this.lastUpdatedStamp = lastUpdatedStamp;
     }
 
-    public Date getLastUpdatedTxStamp() {
+    public LocalDateTime getLastUpdatedTxStamp() {
         return lastUpdatedTxStamp;
     }
 
-    public void setLastUpdatedTxStamp(Date lastUpdatedTxStamp) {
+    public void setLastUpdatedTxStamp(LocalDateTime lastUpdatedTxStamp) {
         this.lastUpdatedTxStamp = lastUpdatedTxStamp;
     }
 
-    public Date getCreatedStamp() {
+    public LocalDateTime getCreatedStamp() {
         return createdStamp;
     }
 
-    public void setCreatedStamp(Date createdStamp) {
+    public void setCreatedStamp(LocalDateTime createdStamp) {
         this.createdStamp = createdStamp;
     }
 
-    public Date getCreatedTxStamp() {
+    public LocalDateTime getCreatedTxStamp() {
         return createdTxStamp;
     }
 
-    public void setCreatedTxStamp(Date createdTxStamp) {
+    public void setCreatedTxStamp(LocalDateTime createdTxStamp) {
         this.createdTxStamp = createdTxStamp;
     }
 }

@@ -27,6 +27,11 @@ public class Args {
         return argument;
     }
 
-
+    public static <T> T notEmpty(final T argument, final String name) {
+        if (argument == null || "".equals(argument)) {
+            throw new IllegalArgumentException(name + " may not be null");
+        }
+        return argument;
+    }
 
 }

@@ -1,0 +1,14 @@
+2018-07-20 16:19:31;Starting LogbackDemoApplicationTests on SL2LS431841 with PID 13212 (started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:19:31;Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:19:31;No active profile set, falling back to default profiles: default
+2018-07-20 16:19:32;log an error message -inside TestComponent2.setup() 
+2018-07-20 16:19:32;log an error message -inside TestComponent3.setup() 
+2018-07-20 16:19:32;Started LogbackDemoApplicationTests in 1.591 seconds (JVM running for 2.959)
+2018-07-20 16:19:32;log an error message -inside TestComponent2.clean() 
+2018-07-20 16:19:52;Starting LogbackDemoApplication v0.0.1-SNAPSHOT on SL2LS431841 with PID 5212 (C:\gitworkspace\logback-demo\target\logback-demo-0.0.1-SNAPSHOT.jar started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:19:52;Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:19:52;No active profile set, falling back to default profiles: default
+2018-07-20 16:19:52;log an error message -inside TestComponent2.setup() 
+2018-07-20 16:19:52;log an error message -inside TestComponent3.setup() 
+2018-07-20 16:19:53;Started LogbackDemoApplication in 1.569 seconds (JVM running for 2.079)
+2018-07-20 16:19:53;log an error message -inside TestComponent2.clean() 

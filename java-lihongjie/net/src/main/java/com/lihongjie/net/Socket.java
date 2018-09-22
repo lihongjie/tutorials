@@ -1,5 +1,7 @@
 package com.lihongjie.net;
 
+import java.io.OutputStream;
+
 /**
  * Socket Builder
  */
@@ -15,6 +17,10 @@ public class Socket {
         this.host = host;
         this.ssl = ssl;
         this.timeout = timeout;
+    }
+
+    public OutputStream getOutputStream() {
+        return this.getOutputStream();
     }
 
     public static class Builder {

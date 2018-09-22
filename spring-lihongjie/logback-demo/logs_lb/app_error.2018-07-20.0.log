@@ -1,0 +1,27 @@
+2018-07-20 16:24:34;Neither @ContextConfiguration nor @ContextHierarchy found for test class [jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests], using SpringBootContextLoader
+2018-07-20 16:24:34;Could not detect default resource locations for test class [jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-20 16:24:34;Could not detect default configuration classes for test class [jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests]: LogbackDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-20 16:24:34;Found @SpringBootConfiguration jcg.zheng.demo.logbackdemo.LogbackDemoApplication for test class jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests
+2018-07-20 16:24:34;Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-20 16:24:34;Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3315d2d7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@d6e7bab, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5fa07e12, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55b53d44, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@482bce4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@366647c2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a6afff2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1649b0e6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@865dd6]
+2018-07-20 16:24:35;Starting LogbackDemoApplicationTests on SL2LS431841 with PID 9432 (started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:24:35;Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:24:35;No active profile set, falling back to default profiles: default
+2018-07-20 16:24:35;log an error message -inside TestComponent2.setup() 
+2018-07-20 16:24:35;log an error message -inside TestComponent3.setup() 
+2018-07-20 16:24:36;Started LogbackDemoApplicationTests in 1.487 seconds (JVM running for 2.987)
+2018-07-20 16:24:36;log an error message -inside TestComponent2.clean() 
+2018-07-20 16:25:06;Starting LogbackDemoApplication v0.0.1-SNAPSHOT on SL2LS431841 with PID 10108 (C:\gitworkspace\logback-demo\target\logback-demo-0.0.1-SNAPSHOT.jar started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:25:06;Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:25:06;No active profile set, falling back to default profiles: default
+2018-07-20 16:25:07;log an error message -inside TestComponent3.setup() 
+2018-07-20 16:25:07;log an error message -inside TestComponent2.setup() 
+2018-07-20 16:25:07;Started LogbackDemoApplication in 1.506 seconds (JVM running for 2.172)
+2018-07-20 16:25:07;log an error message -inside TestComponent2.clean() 
+2018-07-20 16:27:57;Starting LogbackDemoApplication v0.0.1-SNAPSHOT on SL2LS431841 with PID 11400 (C:\gitworkspace\logback-demo\target\logback-demo-0.0.1-SNAPSHOT.jar started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:27:57;Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:27:57;No active profile set, falling back to default profiles: default
+2018-07-20 16:27:58;log an error message -inside TestComponent3.setup() 
+2018-07-20 16:27:58;log an error message -inside TestComponent2.setup() 
+2018-07-20 16:27:58;Started LogbackDemoApplication in 1.498 seconds (JVM running for 2.159)
+2018-07-20 16:27:58;log an error message -inside TestComponent2.clean() 

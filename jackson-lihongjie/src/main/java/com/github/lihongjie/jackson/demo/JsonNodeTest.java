@@ -39,6 +39,7 @@ public class JsonNodeTest {
         List<String> list = Arrays.asList("data", "salarys", "ones");
 
         JsonNode dataNode = root.path("data");
+        System.out.println("data : " + dataNode.toString());
 
         for (int i = 0; i < list.size(); i++) {
             String str = list.get(i);

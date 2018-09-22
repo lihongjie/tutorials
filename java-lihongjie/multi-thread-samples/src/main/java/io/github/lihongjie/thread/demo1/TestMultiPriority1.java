@@ -1,4 +1,4 @@
-package com.example;
+package io.github.lihongjie.thread.demo1;
 
 public class TestMultiPriority1 extends Thread {
 

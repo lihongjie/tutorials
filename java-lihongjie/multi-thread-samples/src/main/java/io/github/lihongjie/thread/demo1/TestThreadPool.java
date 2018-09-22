@@ -1,8 +1,11 @@
-package com.example;
+package io.github.lihongjie.thread.demo1;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/***
+ * 线程池的使用
+ */
 public class TestThreadPool {
 
     public static void main(String[] args) {
@@ -13,7 +16,7 @@ public class TestThreadPool {
         }
         executor.shutdown();
         while (!executor.isTerminated()) {
-
+            // empty
         }
         System.out.println("Finished all threads");
     }

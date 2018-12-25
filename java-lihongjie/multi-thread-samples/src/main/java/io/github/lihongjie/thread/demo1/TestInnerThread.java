@@ -1,5 +1,8 @@
 package io.github.lihongjie.thread.demo1;
 
+/**
+ * Test wait(),notify(),notifyAll() method
+ */
 public class TestInnerThread {
 
     public static void main(String[] args) {

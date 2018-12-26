@@ -1,0 +1,34 @@
+2018-07-21 06:20:19 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests], using SpringBootContextLoader
+2018-07-21 06:20:19 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-21 06:20:19 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests]: LogbackDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-21 06:20:19 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration jcg.zheng.demo.logbackdemo.LogbackDemoApplication for test class jcg.zheng.demo.logbackdemo.LogbackDemoApplicationTests
+2018-07-21 06:20:19 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-21 06:20:19 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1649b0e6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@865dd6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4da4253, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3972a855, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62e7f11d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@503d687a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a370f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2abf4075, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@770d3326]
+2018-07-21 06:20:20 [main] INFO  j.z.d.l.LogbackDemoApplicationTests -
+				Starting LogbackDemoApplicationTests on SL2LS431841 with PID 6644 (started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-21 06:20:20 [main] DEBUG j.z.d.l.LogbackDemoApplicationTests -
+				Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-21 06:20:20 [main] INFO  j.z.d.l.LogbackDemoApplicationTests -
+				No active profile set, falling back to default profiles: default
+2018-07-21 06:20:21 [main] INFO  j.z.d.l.component.TestComponent1 -
+				log a info message -inside TestComponent1.setup() 
+2018-07-21 06:20:21 [main] WARN  j.z.d.l.component.TestComponent1 -
+				log a warn message -inside TestComponent1.setup() 
+2018-07-21 06:20:21 [main] ERROR j.z.d.l.component.TestComponent1 -
+				log an error message -inside TestComponent1.setup() 
+2018-07-21 06:20:21 [main] ERROR j.z.d.l.component.TestComponent3 -
+				log an error message -inside TestComponent3.setup() 
+2018-07-21 06:20:22 [main] INFO  j.z.d.l.LogbackDemoApplicationTests -
+				Started LogbackDemoApplicationTests in 2.652 seconds (JVM running for 5.019)
+2018-07-21 06:20:22 [Thread-2] INFO  j.z.d.l.component.TestComponent1 -
+				log a info message -inside TestComponent1.clean() 
+2018-07-21 06:20:22 [Thread-2] WARN  j.z.d.l.component.TestComponent1 -
+				log a warn message -inside TestComponent1.clean() 
+2018-07-21 06:20:22 [Thread-2] ERROR j.z.d.l.component.TestComponent1 -
+				log an error message -inside TestComponent1.clean() 

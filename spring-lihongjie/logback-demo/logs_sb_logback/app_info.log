@@ -1,0 +1,44 @@
+2018-07-20 16:19:31 [main] INFO  j.z.d.l.LogbackDemoApplicationTests -
+				Starting LogbackDemoApplicationTests on SL2LS431841 with PID 13212 (started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:19:31 [main] DEBUG j.z.d.l.LogbackDemoApplicationTests -
+				Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:19:31 [main] INFO  j.z.d.l.LogbackDemoApplicationTests -
+				No active profile set, falling back to default profiles: default
+2018-07-20 16:19:32 [main] INFO  j.z.d.l.component.TestComponent1 -
+				log a info message -inside TestComponent1.setup() 
+2018-07-20 16:19:32 [main] WARN  j.z.d.l.component.TestComponent1 -
+				log a warn message -inside TestComponent1.setup() 
+2018-07-20 16:19:32 [main] ERROR j.z.d.l.component.TestComponent1 -
+				log an error message -inside TestComponent1.setup() 
+2018-07-20 16:19:32 [main] ERROR j.z.d.l.component.TestComponent3 -
+				log an error message -inside TestComponent3.setup() 
+2018-07-20 16:19:32 [main] INFO  j.z.d.l.LogbackDemoApplicationTests -
+				Started LogbackDemoApplicationTests in 1.591 seconds (JVM running for 2.959)
+2018-07-20 16:19:32 [Thread-2] INFO  j.z.d.l.component.TestComponent1 -
+				log a info message -inside TestComponent1.clean() 
+2018-07-20 16:19:32 [Thread-2] WARN  j.z.d.l.component.TestComponent1 -
+				log a warn message -inside TestComponent1.clean() 
+2018-07-20 16:19:32 [Thread-2] ERROR j.z.d.l.component.TestComponent1 -
+				log an error message -inside TestComponent1.clean() 
+2018-07-20 16:19:52 [main] INFO  j.z.d.l.LogbackDemoApplication -
+				Starting LogbackDemoApplication v0.0.1-SNAPSHOT on SL2LS431841 with PID 5212 (C:\gitworkspace\logback-demo\target\logback-demo-0.0.1-SNAPSHOT.jar started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-20 16:19:52 [main] DEBUG j.z.d.l.LogbackDemoApplication -
+				Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-20 16:19:52 [main] INFO  j.z.d.l.LogbackDemoApplication -
+				No active profile set, falling back to default profiles: default
+2018-07-20 16:19:52 [main] ERROR j.z.d.l.component.TestComponent3 -
+				log an error message -inside TestComponent3.setup() 
+2018-07-20 16:19:52 [main] INFO  j.z.d.l.component.TestComponent1 -
+				log a info message -inside TestComponent1.setup() 
+2018-07-20 16:19:52 [main] WARN  j.z.d.l.component.TestComponent1 -
+				log a warn message -inside TestComponent1.setup() 
+2018-07-20 16:19:52 [main] ERROR j.z.d.l.component.TestComponent1 -
+				log an error message -inside TestComponent1.setup() 
+2018-07-20 16:19:53 [main] INFO  j.z.d.l.LogbackDemoApplication -
+				Started LogbackDemoApplication in 1.569 seconds (JVM running for 2.079)
+2018-07-20 16:19:53 [Thread-2] INFO  j.z.d.l.component.TestComponent1 -
+				log a info message -inside TestComponent1.clean() 
+2018-07-20 16:19:53 [Thread-2] WARN  j.z.d.l.component.TestComponent1 -
+				log a warn message -inside TestComponent1.clean() 
+2018-07-20 16:19:53 [Thread-2] ERROR j.z.d.l.component.TestComponent1 -
+				log an error message -inside TestComponent1.clean() 

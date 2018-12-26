@@ -1,0 +1,7 @@
+2018-07-21 06:20:59;Starting LogbackDemoApplication v0.0.1-SNAPSHOT on SL2LS431841 with PID 3508 (C:\gitworkspace\logback-demo\target\logback-demo-0.0.1-SNAPSHOT.jar started by Shu.Shan in C:\gitworkspace\logback-demo)
+2018-07-21 06:20:59;Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-21 06:20:59;No active profile set, falling back to default profiles: default
+2018-07-21 06:21:00;log an error message -inside TestComponent2.setup() 
+2018-07-21 06:21:00;log an error message -inside TestComponent3.setup() 
+2018-07-21 06:21:01;Started LogbackDemoApplication in 2.293 seconds (JVM running for 3.272)
+2018-07-21 06:21:01;log an error message -inside TestComponent2.clean() 

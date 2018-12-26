@@ -5,7 +5,7 @@ public class Customer {
 
     int amount = 10000;
 
-    synchronized void withdraw(int amount) {
+     void withdraw(int amount) {
         System.out.println("going to withdraw...");
 
         if (this.amount < amount) {

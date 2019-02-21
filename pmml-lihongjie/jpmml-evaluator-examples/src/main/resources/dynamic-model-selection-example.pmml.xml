@@ -27,7 +27,7 @@
             <Segment id="A">
                 <SimplePredicate field="attribute1" operator="equal" value="1315"/>
 
-                <RegressionModel modelName="interest-rate-simple-linear-regression-1" functionName="regression"
+                <bai modelName="interest-rate-simple-linear-regression-1" functionName="regression"
                                  algorithmName="least squares"
                                  targetFieldName="rate">
 
@@ -43,7 +43,7 @@
                     <RegressionTable intercept="10000">
                         <NumericPredictor name="year" exponent="1" coefficient="1.5"/>
                     </RegressionTable>
-                </RegressionModel>
+                </bai>
             </Segment>
 
             <Segment id="B">

@@ -2644,15 +2644,6 @@
 			},
 			"name": "pmml-evaluator-extension",
 			"visibility": "public"
-		},
-		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAFj0JqBhR9raFA=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "pmml-evaluator",
-			"visibility": "public"
 		}
 	]
 }

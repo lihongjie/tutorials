@@ -37,7 +37,7 @@ public class DynamicPmmlModelSelectionExample {
 
         Map<String, Object> map2 = new HashMap<>();
         map2.put("year", 2014);
-        map2.put("attribute1", "1315");
+        map2.put("attribute1", "1330");
 
         System.out.println(score(evaluator, map2));
 

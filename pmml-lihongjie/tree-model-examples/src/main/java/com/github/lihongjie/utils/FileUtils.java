@@ -24,6 +24,7 @@ public class FileUtils {
         String pmmlString = new Scanner(pmmlFile).useDelimiter("\\Z").next();
         InputStream is = new ByteArrayInputStream(pmmlString.getBytes());
         InputSource source = new InputSource(is);
+//        SAXSource transformedSource = ImportFilter.apply(source); // 低版本使用apply方法
         SAXSource transformedSource = ImportFilter.apply(source);
         PMML pmml = JAXBUtil.unmarshalPMML(transformedSource);
         ModelEvaluatorFactory modelEvaluatorFactory = ModelEvaluatorFactory.newInstance();

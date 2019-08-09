@@ -4,7 +4,7 @@
 	<groupId>org.apache.commons.web.demo</groupId>
 	<artifactId>apache-commons-web-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<parent>
 		<groupId>org.springframework.security.tutorial.parent</groupId>

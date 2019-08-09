@@ -28,20 +28,23 @@ public class IrisTreeModel {
         List<String> dataLines = Files.readAllLines(Paths.get(IrisTreeModel.class.getClassLoader().getResource("dataset\\Iris_150.csv").toURI()));
         System.out.println(dataLines.size());
         modelEvaluator.verify();
+        //读取每行数据
         for (String dataLine : dataLines) {
             // System.out.println(dataLine); // (sepal_length,sepal_width,petal_length,petal_width,class)
-            if (dataLine.startsWith("sepal_length")) continue;
+            //第一行表头不读取
+            if (dataLine.startsWith("sepal_length"))
+                continue;
             Map<FieldName, ?> arguments = iris.readArgumentsFromLine(dataLine, modelEvaluator);
             Map<FieldName, ?> results = modelEvaluator.evaluate(arguments);
             TreeModelEvaluator tree = (TreeModelEvaluator) modelEvaluator;
-            FieldName targetName = tree.getTargetFieldName();
+            FieldName targetName = tree.getTargetName();
             Object targetValue = results.get(targetName);
 //            TreeModelEvaluator activeTree = (TreeModelEvaluator) targetValue;
             Node activeNode = ((NodeScoreDistribution) targetValue).getNode();
 
             TreeModelEvaluator treeModelEvaluator = (TreeModelEvaluator) modelEvaluator;
             Node rootNode = treeModelEvaluator.getModel().getNode();
-            loopNode(rootNode, activeNode.getId());
+            loopNode(rootNode, activeNode.getId().toString());
 
             System.out.println(results);
         }

@@ -5,7 +5,8 @@ import java.util.Spliterator;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
-public class RelatedAuthorSpliterator implements Spliterator<Author> {
+public class
+RelatedAuthorSpliterator implements Spliterator<Author> {
 	private final List<Author> list;
 	AtomicInteger current = new AtomicInteger();
 

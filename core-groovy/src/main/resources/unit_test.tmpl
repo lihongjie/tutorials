@@ -1,0 +1,7 @@
+import groovy.util.GroovyTestCase
+
+class <%=test_suite %> extends GroovyTestCase {	
+  <% for(tc in test_cases) {
+	println "\tvoid ${tc}() { } "
+  }%>  
+}

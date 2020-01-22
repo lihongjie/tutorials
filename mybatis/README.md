@@ -1,2 +1,2 @@
-### Relevant Articles: 
-- [Quick Guide to MyBatis](http://www.baeldung.com/mybatis)
+# mybatis3-tutorial
+mybatis3 tutorial

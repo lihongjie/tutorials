@@ -1,6 +1,3 @@
-
 ## Testing Modules
 
-### Relevant Articles:
-
-- [Quick Guide to BDDMockito](http://www.baeldung.com/bdd-mockito)
+This is an aggregator module containing multiple modules focused on testing libraries.
